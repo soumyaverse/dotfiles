@@ -5,12 +5,14 @@ colors:
   cursor:
     text: CellBackground
     cursor: CellForeground
+    # cursor: '0xcf475f' #me
   vi_mode_cursor:
     text: CellBackground
     cursor: CellForeground
   search:
     matches:
       foreground: '0x44475a'
+      # background: '0xbd475f' #me
       background: '0x50fa7b'
     focused_match:
       foreground: '0x44475a'
@@ -23,6 +25,7 @@ colors:
     background: None
   selection:
     text: CellForeground
+    # background: '0xcf475f' #me
     background: '0x44475a'
   normal:
     black:   '0x000000'
@@ -69,5 +72,5 @@ offset:
   x: 0
   y: 1
 
-background_opacity: 0.8
+background_opacity: 0.9
 

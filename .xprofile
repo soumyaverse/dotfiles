@@ -1,0 +1,2 @@
+xset r rate 210 40
+xbindkeys --poll-rc

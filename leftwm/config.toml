@@ -1,7 +1,7 @@
 modkey = "Mod4"
 mousekey = "Mod4"
 workspaces = []
-tags = ["", "2", "3", "4", "5", "6", "7", "8", "9"]
+tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
 scratchpad = []
 disable_current_tag_swap = false
@@ -251,5 +251,9 @@ value = "5"
 modifier = ["modkey"]
 key = "j"
 
-
+[[keybind]]
+command = "Execute"
+value = "dmenu_run -fn 'Mononoki Nerd Font:pixelsize=18' -nf cyan -sb orange -sf black"
+modifier = ["modkey"]
+key = "d"
 
